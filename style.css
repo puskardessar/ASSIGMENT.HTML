@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-image: url(pexels-photo-268533.JPEG);
+  
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+
+
+
+ 
+  
+}/*
+1*/
+
+
+a {
+  color: white;
+}
+/*2*/
+
+ 
+nav {
+  background-color: black;
+  box-shadow: 4px 1px 4px 4px red;
+
+  width: 100%;
+  z-index: 3;
+  color: gray;
+  border: 1px solid black;
+  height: 70px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: gray;
+  float: right;
+   
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+.menu {
+  height: 30px;
+}
+
+nav ul li a {
+  display: block;
+
+  text-decoration: none;
+  height: 20px;
+  width: 120px;
+
+  font-size: 20px;
+  color: #000000;
+  padding: 25px 0px;
+
+  transition: 0.6s ease;
+}
+
+nav .logo {
+  display: block;
+  float: left;
+  font-size: 3em;
+  padding: 10px 20px;
+  text-decoration: none;
+  animation-name: makani;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes makani{
+  20%{
+    color: red;
+
+  }
+  40%{
+    color: blue;
+  }
+  60%
+  {
+    color: pink;
+    color: pink
+
+  }
+  80%{
+    color: gray;
+  }
+
+}
+
+ul li a:hover {
+  background-color: pink;
+  color: white;
+}
+#burgerLabel {
+
+  display: none;
+  position: relative;
+  top: 10%;
+}
+
+#hide {
+  display: none;
+}
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 160px;
+  background: lightblue;
+  margin: 10% 20% 20% 20%;
+  padding: 5% 2%;
+  font-size: 30px;
+  animation: puskar-1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+/*3*/
