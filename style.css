@@ -18,16 +18,32 @@ body {
 
  
   
-}/*
-1*/
-
+}
+@keyframes example{
+  25%{
+    background-image: url(mountains-under-mist-morning-amazing-260nw-1725825019.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  55%{
+    background-image: url(ooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  90%{
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pexels-photo-414612.JPEG);
+  }
+}
 
 a {
   color: white;
 }
-/*2*/
 
- 
+
+2
+
 nav {
   background-color: black;
   box-shadow: 4px 1px 4px 4px red;
@@ -128,4 +144,328 @@ ul li a:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-/*3*/
+@keyframes puskar-1{
+  0%{ background-color: red;
+    
+    transform: rotateX(90deg);
+
+   }
+   25%{ 
+    background-color: blue;
+
+
+
+   }
+   25%{ 
+    background-color: blue;
+    
+
+
+    }
+    100%{
+      background-color: pink;
+    }
+}
+
+
+
+3
+/*portfolio*/
+
+
+#rrr {
+  
+  
+   background-color: #0d2303;
+   margin-top: 5%;
+
+   overflow: hidden;
+
+
+
+}
+.shahil {
+  display: grid;
+
+  grid-template-columns: 30% 30% 30%;
+
+
+  background-color: #0d2303;
+  width: 100%;
+  
+  position: relative;
+  top: 5%;
+  height: auto;
+ 
+  text-align: center;
+  
+
+}
+.first-year {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 400px;
+  background-color: lightgray;
+  
+  width: 550px;
+  position: relative;
+  left: 34%;
+  margin: 2%;
+  font-size: 20px;
+ 
+}
+.second-year {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  margin: 6%;
+  
+  margin-left: 25%;
+  font-size: 20px;
+ 
+  
+}
+.third-year {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  margin: 6%;
+  font-size: 20px;
+  
+  margin-left: 22%;
+ 
+  
+}.my-selfi-0 {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  margin: 6%;
+  font-size: 20px;
+  
+  margin-left: 30%;
+ 
+  
+}
+
+
+.tours-photo{
+  background-color: gray;
+  height: 400px;
+  width: 600px;
+  margin-left: 10%;
+  font-size: 20px;
+ 
+}
+.memorable-photo{
+  background-color: gray;
+  height: 370px;
+  width: 500px;
+  margin-left: 80%;
+  font-size: 20px;
+
+}
+.rojan{
+  height: 300px;
+  background-image: url(222.PNG);
+  background-size: contain;
+  
+  
+}
+.rayan{
+  height: 90px;
+  width: 550px;
+  background-color: green;
+
+}
+.pakas{
+  height: 210px;
+  background-image: url(333.PNG);
+}
+.whaks{
+  height: 70px;
+  width: 300px;
+  background-color: pink;
+}
+.div-1{
+  height: 210px;
+   background-image: url(333.PNG);
+}
+.div-2{
+  height: 70px;
+  width: 300px;
+  background-color: blue;
+}
+.div-4{
+  height: 210px;
+   background-image: url(333.PNG);
+}
+.div-5{
+  height: 70px;
+  width: 300px;
+  background-color: pink;
+}
+
+.div-6{
+  height: 400px;
+  background-image: url(placeholder0.PNG);
+  background-size: cover;
+}
+.div-7{
+  height: 70px;
+  width: 600px;
+  background-color: pink;
+
+}
+.div-8{
+  height: 300px;
+  background-image: url(placeholder0.PNG);
+  background-size: cover;
+
+}
+.div-9{
+  height: 70px;
+  width: 500px;
+  background-color: pink;
+}
+.collection{
+  width: 90%;
+  height: 600px;
+
+
+  background-color: ;
+
+  margin: 5%;
+   display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+
+}
+.portfolio-1{
+  text-align: center;
+  font-size: 70px;
+ 
+  text-decoration: underline;
+  color: red;
+  animation-name: colorexchange;
+  animation-duration: 7s;
+
+}
+@keyframes colorexchange{
+  0%{
+    color:  #0d2303;
+  }
+  25%{
+    color: black;
+  }
+  50%{
+    color:  #0d2303;
+  }
+  80%{
+    color: pink;
+  }
+
+}
+
+  
+
+@keyframes portfolio-s{
+  0%{
+   
+    color:  #0d2303;
+  }
+  50%{
+    color: red;
+  }
+  100%{
+    color: black;
+  }
+}
+.collection-1{
+  background-image: url(01.PNG);
+ animation-name: nobita;
+ background-size: cover;
+background-repeat: no-repeat;
+  transition-duration: 10s;
+  background-size: cover;
+  
+
+ margin: 5%;
+}
+.myphto{
+  color: #e7efab;
+  width: 100%;
+
+  width: 100%;
+
+
+
+
+
+}
+.myphto h1{
+  margin-top: 7%;
+   font-size: 50px;
+}
+@keyframes nobita{
+  0%{
+    background-color: #0d2303;
+
+  }
+  50%{
+     
+    background-color: blue;
+    filter: blur(0);
+
+  }
+ 
+}
+
+
+
+
+
+
+  
+
+ 
+
+  
+
+@media (max-width: 1200px){
+ .second-year{
+  margin: 5%;
+ }
+ .third-year{
+  margin-left: 17%;
+ }
+  .tours-photo{
+    width: 400px;
+
+  }
+  .memorable-photo{
+    width: 350px;
+  }
+  .first-year{
+    width: 450px;
+    margin-left: -2%;
+  }
+  .rayan{
+  
+  width: 450px;
+  background-color: green;
+}
+.div-7{
+  width: 400px;
+}
+.div-6{
+   width: 400px; 
+   width: 400px;
+ 
+  
+
+}
+.div-9{
+  width: 350px;
+}
+}
+
